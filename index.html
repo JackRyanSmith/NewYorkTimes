@@ -14,40 +14,57 @@
 </head>
 
 <body>
-    <!-- jumbtorn header -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <div class="container">
+        <div class="row">
+            <!-- jumbtorn header -->
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">NEW YORK TIMES BABY!!!!</h1>
+                    <p class="lead"></p>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- first title -->
-    <h1>Hello, world!</h1>
+        <div class="row">
+            <h1>Hello, world!</h1>
+        </div>
+        <!-- first title -->
 
-    <!-- form with four data feilds -->
-    <form>
-        <div class="form-group">
-            <label for="formGroupExampleInput">Example label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+        <!-- form with four data feilds -->
+        <div class="row">
+            <form>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="searchTerm">Search Term:</label>
+                        <input type="text" class="form-control" id="searchTerm" placeholder="Example input placeholder">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="numRecords">Number of Records to Retrieve:</label>
+                        <input type="text" class="form-control" id="numRecords" placeholder="Another input placeholder">
+                    </div>
+                </div>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="formGroupExampleInput2">Another label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+        <div class="row">
+            <form>
+                <div class="form-group">
+                    <label for="startYear">Start Year (Optional):</label>
+                    <input type="text" class="form-control" id="startYear" placeholder="Example input placeholder">
+                </div>
+                <div class="form-group">
+                    <label for="endYear">End Year (Optional):</label>
+                    <input type="text" class="form-control" id="endYear" placeholder="Another input placeholder">
+                </div>
+            </form>
         </div>
-    </form>
-    <form>
-        <div class="form-group">
-            <label for="formGroupExampleInput">Example label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
-        </div>
-        <div class="form-group">
-            <label for="formGroupExampleInput2">Another label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-        </div>
-    </form>
+        <button type="button" class="btn btn-light">Search</button><button type="button" class="btn btn-light">Clear
+            Search</button>
+    </div>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="script.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -57,8 +74,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-
-
+    <script src="script.js"></script>
 
 
 </body>
